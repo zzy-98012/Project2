@@ -15,4 +15,12 @@ The resluts of accuracy is listing as following.The results is solution,concolut
 
 We can see that the accuracy of the first and second methods is similar.But the accuracy of the third method drops rapidly.I guess it's because I changed the stride.Becacuse the 'padding=VALID'.Maybe some data is discarded during the whole operation.There may be other reasons because I don't understand the whole algorithm as well  
 
-2.Keras
+2.Keras  
+
+Keras1 changes the second of ConV2D.I change with the code 'model.add(Conv2D(32, (3, 3), input_shape=(15, 15, 16)))'.And I add a Dropout with the parameter of 0.5.Also I change the Dense(100) into Dense(512) which is different of the examples.But I think the change of Dense is not important.  
+
+Keras2 is similar to the Keras1.The Keras2 is without the dropout.I also add a ConV2D and change the Dense.  
+
+Keras3 is the example in the book.There are no changes.It have no dropout and only once ConV.Of course,the result is the lowest.  
+
+The resluts of accuracy is listing as following.The results is Keras1,Keras2,Keras3.  
