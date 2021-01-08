@@ -10,8 +10,9 @@ LetNet-Lab-convolution.ipynb adds a layer of convolution3.I make a comments in t
 LetNet-Lab-Conv&Stride&FC.ipynb changes the stride and adds a layer of fully connected what I have made a comments in the code.In the step of Conv2,I modify the steide from one to two to see what happen.And the results make a different chance.Also,I adds a layer of fully connected make Input=64 to Output=30.Besides,I make a dropout in the end.  
     
 The resluts of accuracy is listing as following.The results is solution,concolution,Conv&Stride&Fc.  
-
-
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="200" width="100"/></div>
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="200" width="100"/></div>
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="200" width="100"/></div>  
 
 We can see that the accuracy of the first and second methods is similar.But the accuracy of the third method drops rapidly.I guess it's because I changed the stride.Becacuse the 'padding=VALID'.Maybe some data is discarded during the whole operation.There may be other reasons because I don't understand the whole algorithm as well  
 
