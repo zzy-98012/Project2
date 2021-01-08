@@ -11,8 +11,8 @@ LetNet-Lab-Conv&Stride&FC.ipynb changes the stride and adds a layer of fully con
     
 The resluts of accuracy is listing as following.The results is solution,concolution,Conv&Stride&Fc.  
 <div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="50" width="500"/></div>
-<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="50" width="500"/></div>
-<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/solution.PNG" height="50" width="500"/></div>  
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/convolution.PNG" height="50" width="500"/></div>
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/conv%26stride%26Pc.PNG" height="50" width="500"/></div>  
 
 We can see that the accuracy of the first and second methods is similar.But the accuracy of the third method drops rapidly.I guess it's because I changed the stride.Becacuse the 'padding=VALID'.Maybe some data is discarded during the whole operation.There may be other reasons because I don't understand the whole algorithm as well  
 
