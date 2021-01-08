@@ -25,3 +25,6 @@ Keras2 is similar to the Keras1.The Keras2 is without the dropout.I also add a C
 Keras3 is the example in the book.There are no changes.It have no dropout and only once ConV.Of course,the result is the lowest.  
 
 The resluts of accuracy is listing as following.The results is Keras1,Keras2,Keras3.  
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/Keras1.PNG" height="50" width="500"/></div>
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/Keras2.PNG" height="50" width="500"/></div>
+<div align=center><img src="https://github.com/zzy-98012/Project2/blob/main/iamge/Keras3.PNG" height="50" width="500"/></div>
